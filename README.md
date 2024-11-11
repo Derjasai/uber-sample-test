@@ -91,20 +91,24 @@ Finalmente esto nos dejaría una URL desde donde podríamos usar y probar nuestr
 ## Evidencias
 Como evidencias del despliegue se tienen las siguientes imagenes
 1. Lambda para actualizar posicion del conductor
+
 ![image](https://github.com/user-attachments/assets/2c96aef4-e591-4373-b6b9-94bdea849d17)
 
 2. Lambda para generar un nuevo Viaje
+
 ![image](https://github.com/user-attachments/assets/6507bdee-e647-4fb1-b1f2-78e6ab9de233)
 
 3. El API Gateway configurado para redirigir a la lambda las peticiones HTTP
+
 ![image](https://github.com/user-attachments/assets/046ee6f6-f058-4282-88f8-a7cf995c83c6)
 
 4. Despliegue de API Gateway
+
 ![image](https://github.com/user-attachments/assets/9439d595-6210-47df-9b18-874635d19afd)
 Como se puede apreciar se tiene dos Stages, uno representando un ambiente de test (o QA) y otro representando un posible ambiente Productivo (o prod)
 Mediante este link se puede acceder a los endopoints del Api Gateway [API GATEWAY](https://uaeyswgs70.execute-api.us-east-1.amazonaws.com/prod)
 
-6. Peticiones desde postman con su respectiva respuesta
+5. Peticiones desde postman con su respectiva respuesta
 
 PUT
 
